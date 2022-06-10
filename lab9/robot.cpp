@@ -8,35 +8,6 @@ using std::cout; using std::cin;
 using std::endl; using std::map;
 using std::string;
 using std::array;
-/*
-void crear_robot(){
-    map<string,int> robot;
-    cout<<
-
-
-
-
-}
-
-map<string,int> mapa1;
-void menu(){
-    do{
-    int cant;
-    cout<<"1.Ingrese el num de robots "<<endl;
-    cin>>cant;
-    cout<<endl;
-    cout<<"2.Mostrar robots "<<endl;
-    switch(cant){
-        case 1:
-
-            cout<<endl;
-            system("pause");
-            break;
-                }
-    }
-
-}
-*/
 int aleatorio_en_rango(int minimo, int maximo) {
     return minimo + rand() / (RAND_MAX / (maximo - minimo + 1) + 1);
 }
